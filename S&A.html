@@ -11,6 +11,20 @@
 <body>
   <section class="showcase">
     <video src="bv.mp4" muted loop autoplay></video>
+    <div id="arrowAnim">
+        <div class="arrowSliding">
+          <div class="arrow"></div>
+        </div>
+        <div class="arrowSliding delay1">
+          <div class="arrow"></div>
+        </div>
+        <div class="arrowSliding delay2">
+          <div class="arrow"></div>
+        </div>
+        <div class="arrowSliding delay3">
+          <div class="arrow"></div>
+        </div>
+      </div>
   </section>
   <nav class="navbar">
     <div class="blur"></div>
@@ -139,7 +153,11 @@
       <div class="top">
         <div class="logo-details">
           <img class="f" src="logo (3).png"></img>
-          <span class="logo_name"><br>Taxila Central College</span>
+        </div>
+        <div class="link-boxes">
+          <ul class="box">
+            <li class="link_name">About Us</li>
+            <li class="link_li"><a href="History.html">The present-day Taxila Central College is the outcome of a century of evolution. Horana Buddhist English School was founded in 1905 as part of the Ceylon Buddhist Theosophist directed by Col. Henry Steel Olcott’s Buddhist School Opening Program.<br><br></a></li>
         </div>
         <div class="media-icons">
           <a href="https://www.facebook.com/Taxila/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
@@ -147,20 +165,6 @@
           <a href="https://www.linkedin.com/company/taxila-central-college-sl" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
           <a href="https://www.youtube.com/channel/UCPMsN-OCxZ2fEV5E8iSo7tQ" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
         </div>
-      </div>
-      <div class="link-boxes">
-        <ul class="box">
-          <li class="link_name">About Us</li>
-          <li class="link_li"><a href="History.html">The present-day Taxila Central College is the outcome of a century of evolution. Horana Buddhist English School was founded in 1905 as part of the Ceylon Buddhist Theosophist directed by Col. Henry Steel Olcott’s Buddhist School Opening Program.<br><br></a></li>
-        </ul>
-        <ul class="box">
-          <li class="link_li"><a></a></li>
-        </ul>
-        <ul class="box input-box">
-          <li class="link_name">Send Us A Massage</li>
-          <li><input type="text" placeholder="Enter your email"></li>
-          <li><input type="button" value="Subscribe"></li>
-        </ul>
       </div>
     </div>
     <div class="bottom-details">
@@ -173,6 +177,10 @@
       </div>
     </div>
   </footer>
+  <a href="#" class="to-top">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+  <script src="script_2.js"></script>
   <script>
      const loader = document.querySelector(".loader");
      window.onload = function(){
