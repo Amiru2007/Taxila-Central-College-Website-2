@@ -6,8 +6,8 @@ https://www.youtube.com/channel/UCzZALfRhFNE0Y1WH-0-0Yeg
 Follow me on CodePen,
 https://codepen.io/search/pens?q=amiru+weerathunga
 
-On GitHub,
-Amiru2007/Taxila-Central-College-Website-2: Taxila-Central-College-Website-2 (github.com)
+My other project on GitHub,
+https://github.com/Amiru2007/Taxila-Central-College-Horana-Website
 
 Challenge me on Chess.com,
 https://friend.chess.com/AfFi
