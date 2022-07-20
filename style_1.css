@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@300&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
   }
   html {
     scroll-behavior: smooth;
@@ -431,6 +431,7 @@
   }
   
   h3 {
+    font-family: 'Noto Sans Sinhala', sans-serif; font-weight: 500;
     width: 330px;
     border: 3px solid black;
     padding: 10px;
@@ -443,6 +444,7 @@
     text-align: center;
   }
   h5 {
+    font-family: 'Noto Sans Sinhala', sans-serif; font-weight: 500;
     height: 670px;
     width: 330px;
     border: 3px double black;
